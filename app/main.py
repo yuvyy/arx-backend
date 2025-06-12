@@ -7,7 +7,7 @@ app.include_router(user.router, prefix="/api")
 
 @app.get("/")
 def read_root():    
-    return {"message": "Hello, World!"}
+    return {"message": "Hello, World!!"}
 
 @app.on_event("startup")
 def startup_event():
